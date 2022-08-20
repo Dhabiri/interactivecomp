@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: #121417;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#greet {
+    color: #959eac;
+    font-size: 1.3rem;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.main-container #star {
+    background-color: #444b55;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-container h2 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+.main-container p {
+    color: #959eac;
+    margin-bottom: 1rem;
+}
+
+.main-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.main-container ul li button {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #444b55;
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-container ul li button:hover {
+    background-color: #fb7413;
+}
+
+.main-container ul li button:focus {
+    background-color: #8593a7;
+}
+
+.buttn-submit {
+    background-color: #fb7413;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttn-submit:hover {
+    background-color: #fff;
+    color: #fb7413;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you p {
+    color: #959eac;
+}
+
+.thank-you p.gray {
+    color: #fb7413;
+    background-color: #556274;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem 0;
+    margin: 2rem;
+}
+
+.thank-you h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+.main-container,
+.thank-you {
+    background: linear-gradient(140deg,
+            #252d37,
+            #0e1620);
+    padding: 1.5rem;
+    border-radius: 1.0rem;
+    max-width: 400px;
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
